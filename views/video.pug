@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+    style
+      include ../public/css/style.css
+  body
+    div.container
+      each video in result
+        iframe(src=video.video_url) /
+        span= video.views

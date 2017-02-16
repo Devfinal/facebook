@@ -1,0 +1,18 @@
+{
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "horseman": "^0.2.1",
+    "node-horseman": "^3.2.0",
+    "phantom": "^4.0.0",
+    "pug": "^2.0.0-beta11"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
+
+
